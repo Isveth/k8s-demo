@@ -30,7 +30,7 @@ spec:
         env:
         - name: USER_NAME
           valueFrom:
-            sectretKeyRef:
+            secretKeyRef:
               name: mongo-secret
               key: mongo-user
 
